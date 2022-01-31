@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Square = ({value}) => {
+const Square = ({value,children}) => {
 //   console.log(props);
-  return <button type="button"> {value} </button>;
+  return <button type="button" className='square' > {value} </button>;
 };
 
 export default Square;
