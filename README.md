@@ -20,6 +20,12 @@ vite --port 1234
 ```
 
 ## Adding styles
+<br/>
+
+### Adding SASS
+```
+npm install -D sass
+```
 
 You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
 
