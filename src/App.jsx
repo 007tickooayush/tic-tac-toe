@@ -18,6 +18,8 @@ const App = () => {
 
   const {winner,winnerSquares} = calculateWinner(current.board);
 
+  // current.board.every(el => el !== null)
+  // (!winner && !noMovesLeft)
   // console.log(history);
   // console.log(winner);
 
@@ -65,7 +67,7 @@ const App = () => {
       <button 
         type="button" 
         onClick={onNewGame}
-        className={`btn-reset ${winner?'active':''}`}
+        className={`btn-reset ${winner ||(!winner && current.board.every(el => el !== null))?'active':''}`}
         >
         Start new Game
       </button>
