@@ -26,6 +26,10 @@ vite --port 1234
 ```
 npm install -D sass
 ```
+## command to install dev dependencies
+```
+npm install -D rimraf eslint prettier babel-eslint eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-jsx-a11y eslint-plugin-import eslint-config-prettier eslint-config-airbnb
+```
 
 You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
 
